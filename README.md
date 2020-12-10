@@ -1,4 +1,4 @@
-### :think: TODO-API
+### :star: TODO-API
 
 TODO-API is an implementation of the Backend API's of TODO Application.
 
@@ -13,7 +13,8 @@ The user will be able to search using using of any one of these (title, date, pr
 
 
 ### :dart: Approach:
-I have created various routes for various processes.
+
+# I have created various routes for various processes.
   - GET http://localhost:3000/todos/
     - To list all TODOs
   - POST http://localhost:3000/todos/
@@ -30,6 +31,21 @@ I have created various routes for various processes.
     - To update a TODO with particular id.
   - DELETE http://localhost:3000/todos/:id
     - To delete a TODO with particular id.
+    
+### :computer: Database Schema:
+  - Datebase Name: todos
+  - Fields
+    - id int primary key
+    - title varchar(50)
+    - description text
+    - state boolean
+    - priority integer
+    - creation_date timestamp
 
-
-
+### :hammer_and_wrench: Steps to run:
+ - Fork the repository
+ - Run the command
+   ```
+   $ npm install
+   $ npm start
+   ```
