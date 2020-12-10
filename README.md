@@ -44,6 +44,7 @@ The user will be able to search using using of any one of these (title, date, pr
 
 ### :hammer_and_wrench: Steps to run:
  - Fork the repository
+ - Clone the repository
  - Run the command
    ```
    $ npm install
